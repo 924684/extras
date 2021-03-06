@@ -1,0 +1,25 @@
+{
+    "name": "extras",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Agent 14 Essential Extensions": "github:agent14bricks/agent-14-essential-extensions#ef10453664d6c91ff10c31f099946890c5dcb0ab"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.3.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
